@@ -1,0 +1,21 @@
+.main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.main__button {
+    padding: 10px 20px;
+}
+
+.main__header {
+    margin: 50px;
+    padding: 20px;
+    color: #fff;
+    background-color: #dc143cef;
+    font-size: 30px;
+}
+
+.hide {
+    display: none;
+}

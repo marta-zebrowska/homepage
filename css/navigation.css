@@ -1,0 +1,26 @@
+.navigation__list {
+    list-style: none;
+    padding: 0;
+}
+.navigation__link {
+    color: #db4181;
+    text-decoration: none;
+}
+
+.navigation__link:visited {
+    color: #808397;
+}
+
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.navigation__link:hover {
+    color: #dc143cef;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+.navigation__link:active {
+    color: #2b636def;
+}

@@ -1,0 +1,19 @@
+.section {
+    margin: 100px 30px;
+    padding: 50px;
+    box-shadow: 5px 2px 39px 16px #a17a86;
+}
+
+.section .section__moreMe {
+    color: rgb(236, 108, 108);
+}
+
+.section__myPlans {
+    margin: 100px 20px;
+}
+
+.section__thirdHeader {
+    padding: 100px;
+    background-color: #dc143cef;
+    color: #f7f3f3;
+}
