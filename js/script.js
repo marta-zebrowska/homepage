@@ -1,13 +1,21 @@
-console.log("Cześć wszystkim developerom ;)");
+const button = document.querySelector(".js-button");
+const header = document.querySelector(".js-header");
 
-let button = document.querySelector(".js-button");
-let header = document.querySelector(".js-header");
-let newText = document.querySelector(".js-newText");
-
-button.addEventListener("click", () => {
+const toggleHeader = () => {
   header.classList.toggle("hide");
+};
 
-  newText.innerText = header.classList.contains("hide")
-    ? "Pokaż"
-    : "Ukryj";
-});
+const changeText = () => {
+  const newText = document.querySelector(".js-newText");
+
+  newText.innerText = header.classList.contains("hide") ? "Pokaż" : "Ukryj";
+};
+
+const init = () => {
+  console.log("Cześć wszystkim developerom ;)");
+
+  button.addEventListener("click", toggleHeader);
+  button.addEventListener("click", changeText);
+  };
+
+init ();
