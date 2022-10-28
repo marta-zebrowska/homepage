@@ -1,13 +1,13 @@
 console.log("Cześć wszystkim developerom ;)");
 
-let main__button = document.querySelector(".main__button");
-let main__header = document.querySelector(".main__header");
-let main__newText = document.querySelector(".main__newText");
+let button = document.querySelector(".js-button");
+let header = document.querySelector(".js-header");
+let newText = document.querySelector(".js-newText");
 
-main__button.addEventListener("click", () => {
-  main__header.classList.toggle("hide");
+button.addEventListener("click", () => {
+  header.classList.toggle("hide");
 
-  main__newText.innerText = main__header.classList.contains("hide")
+  newText.innerText = header.classList.contains("hide")
     ? "Pokaż"
     : "Ukryj";
 });
